@@ -1,12 +1,73 @@
-li a {
-  color: #74D0F4;
+body {
+  font-family: 'Fira Sans', sans-serif;
 }
 
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #60c3ef;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.bubble {
+  background-image: url("../images/Date Icon bubble.png");
+  width: 78px;
+  height: 78px;
+  background-repeat: no-repeat;
+  background-image: 100%;
+}
+
+.day {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  display: block;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.month {
+  color: white;
+  text-align: center;
+  display: block;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+li a {
+  color: #60c3ef;
+}
+
+/*chyba chcielismy wyrownac w pionie*/
+/*.dupa {
+  display: flex;
+  align-items: center;
+}*/
+
+ p {
+  font-size: 17px;
+ }
+
+ .categories {
+   font-size: 15px;
+ }
+
 .categories ul li::after {
+  content: " ";
   width: 1px;
   height: 10px;
-  color: gray;
-  content: "  |";
+  background-color: red;
+  display:none;
+  /*content:" ";width:1px;height:13px;background-color:#57a7cc;display:none*/
 }
 
 .categories ul li:last-child::after {
@@ -17,31 +78,36 @@ li a {
 }
 
 .fa {
-  width: 34px;
-  height: 34px;
-  margin-left: 12px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
   border-radius: 50%;
   text-align: center;
-  line-height: 34px;
+  line-height: 40px;
   color: white;
 }
 
 .fa-twitter {
-  background-color: #30B1E7;
+  background-color: #24afe9;
 }
 
 .fa-facebook {
-  background-color:#3D609E;
+  background-color:#3a5e9f;
 }
 
 .fa-google-plus {
-  background-color: #DA4F46;
+  background-color: #dc4e41;
 }
 
 .btn {
-  background-color: #74D0F4;
-  margin-right: 5px;
-  width: 130px;
+  background-color: #34afe5;
+  font-size: 20px;
+  width: 185px;
+  height: 60px;
+}
+
+.previous {
+  margin-right: 12px;
 }
 
 .fa-angle-double-left, .fa-angle-double-right {
@@ -49,31 +115,17 @@ li a {
   width: 20px;
 }
 
-.fa-thumbs-up {
-
-
-}
-
 .likes-comments i {
   color: black;
-
+  font-size: 15px;
 }
 
 .post-footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
-h2, h4, .btn {
-  font-family: 'Fira Sans', sans-serif;
-}
-
-.test {
-  display: flex;
-  align-items: center;
-}
-
-article h4 {
-  color: #74D0F4;
+.share_art {
+  font-size: 25px;
+  font-weight: bold;
 }
