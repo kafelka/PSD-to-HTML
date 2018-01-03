@@ -52,12 +52,22 @@ li a {
   color: #60c3ef;
 }
 
+.blog-meta {
+  font-size: 15px;
+  line-height: 40px;
+  height: 40px;
+}
+
+.likes-comments i {
+  color: black;
+}
+
 p {
   font-size: 17px;
 }
 
- .categories {
-   font-size: 15px;
+ .categories ul {
+   margin-bottom: 0;
  }
 
 .categories ul li::after {
@@ -125,10 +135,7 @@ p {
   width: 20px;
 }
 
-.likes-comments i {
-  color: black;
-  font-size: 15px;
-}
+
 
 .blog-post-second {
   padding: 0 15px;
