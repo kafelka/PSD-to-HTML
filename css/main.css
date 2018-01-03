@@ -30,39 +30,26 @@ h3 {
   background-repeat: no-repeat;
   margin-top: 26px;
   margin-left: 18px;
-  /*
-  czy nie da sie przeniesc color, text-align i innych rzeczy z .day i .month
-  albo przynajmniej polaczyc w jednen blok .day, .month {}
-   */
+  color: white;
+  font-weight: 600;
+  text-align: center;
 }
 
 .day {
   font-size: 35px;
-  color: white;
-  text-align: center;
   display: block;
-  line-height: 1; /* brak jednostek? */
-  font-weight: 600;
+  line-height: 1;
   padding-top: 12px;
 }
 
 .month {
-  color: white;
-  text-align: center;
   display: block;
-  line-height: 1; /* brak jednostek? */
+  line-height: 1;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 li a {
   color: #60c3ef;
-}
-
-/*chyba chcielismy wyrownac w pionie*/
-.dupa { /* zmienic nazwe */
-  display: flex;
-  align-items: center;
 }
 
 p {
@@ -88,16 +75,12 @@ p {
   content: " ";
 }
 
-.dupa .likes-comments { /* zmienic nazwe, dobrze by bylo jakby .dupa, .likes-comments i dupa .likes-comments bylo obok siebie */
-  margin-bottom: 10px;
-}
-
 .post-footer {
   display: flex;
   align-items: center;
 }
 
-.share_art { /* uzywasz wszedzie - a tutaj _ */
+.share-art {
   font-size: 25px;
   font-weight: bold;
 }
