@@ -90,14 +90,23 @@ p {
   content: " ";
 }
 
-.post-footer {
-  display: flex;
-  align-items: center;
+.post-footer .likes-comments {
+  line-height: 60px;
 }
 
 .share-art {
+  height: 60px;
+  line-height: 60px;
+}
+
+.share-art span {
   font-size: 25px;
   font-weight: bold;
+}
+
+.share-art .fa {
+  line-height: 40px;
+  vertical-align: middle;
 }
 
 .fa {
@@ -106,7 +115,6 @@ p {
   margin-left: 10px;
   border-radius: 50%;
   text-align: center;
-  line-height: 40px;
   color: white;
 }
 
@@ -125,10 +133,10 @@ p {
 .btn {
   background-color: #34afe5;
   font-size: 20px;
+  font-weight: bold;
   width: 185px;
   height: 60px;
-  font-weight: bold;
-  padding: 9px;
+  line-height: 46px;
 }
 
 .previous {
